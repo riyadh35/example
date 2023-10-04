@@ -1,0 +1,413 @@
+/* font awesome links */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background: #191717;
+	padding: 15px 0;
+}
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+.container{
+    max-width: 80%;
+    margin:auto;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+}
+
+.navbar .logo{
+    width: 15%;
+}
+
+.menu{
+    display: flex;
+    width: 80%;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px;
+    text-transform: capitalize;
+}
+
+.icons{
+    display: flex;
+}
+
+.id-check{
+    display: none !important;
+    position: absolute;
+    right: 70px;
+}
+
+ .fa-solid{
+    color: #fff;
+}
+
+#menu-bar{
+    display: none;
+}
+
+#close-bar{
+    display: none;
+}
+
+
+/* navbar end */
+
+
+
+.banner-clr{
+    background: #FFC500;
+    width: 100%;
+    padding: 60px 0;
+}
+
+.top-banner{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.banner-left{
+    width: 60%;
+    text-wrap: balance;
+}
+.banner-left h1{
+    font-size: 63px;
+    line-height: 1em;
+}
+.banner-left p{
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+
+.banner-right{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.banner-right img{
+    width: 80%;
+    height: 100%;
+}
+button{
+    margin-top: 35px;
+}
+.top-button1{
+    color: white;
+    background-color: #191717;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    border-radius: 5px;
+}
+.top-button2{
+    color: white;
+    background: none;
+    padding: 20px 25px;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+
+
+/* vetenari section start */
+.vet-area{
+    background: #fff;
+    padding: 100px 0;
+}
+
+.vet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
+
+.vet-left{
+    width: 55%;
+}
+
+.vet-left h1{
+    font-size: 44px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.vet-left p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.vet-right{
+    width: 40%;
+    position: relative;
+}
+
+.vet-right img{
+    width: 80%;
+}
+
+.vet-right::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 150px;
+    background: #FFC500;
+    position: absolute;
+    bottom: 0;
+    left: -30px; 
+}
+.vet-right::after{
+    content: '';
+    display: block;
+    width: 170px;
+    height: 30px;
+    background: #FFC500;
+    position: absolute;
+    left:-30px;
+}
+
+
+.vet-button{
+    display: inline-block;
+    color: #fff;
+    background-color:  #FFC500;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+
+
+
+/* veterenian treatment */
+
+.treatment-area{
+    background: #FFC500;
+    padding: 100px 0;
+    height: auto;
+}
+
+.container .title h1{
+    font-size: 44px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+}
+.container .title p{
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    text-wrap: balance;
+    margin-top: 10px;
+}
+
+
+.treatment{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.treatment-content{
+    width: 30%;
+}
+
+.treatment-content img{
+    width: 100%;
+}
+
+.treat-text{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    text-wrap: wrap;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+/* second vet */
+
+
+.second-vet{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.second-vet-left{
+    width: 40%;
+    position: relative;
+}
+
+
+.second-vet-left img{
+    width: 80%;
+}
+
+
+.second-vet-left::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 150px;
+    background: #FFC500;
+    position: absolute;
+    bottom: 0;
+    left: -30px;
+}
+
+.second-vet-left::after{
+    content: '';
+    display: block;
+    width: 170px;
+    height: 30px;
+    background: #FFC500;
+    position: absolute;
+    bottom:-30px;
+    left: -30px ;
+}
+
+.second-vet-right{
+    width: 55%;
+    text-align: end;
+}
+
+
+.second-vet-right h1{
+    font-size: 44px;
+    line-height: 1.2em;
+    font-weight: 700;
+}
+
+.second-vet-right p{
+    font-size: 20px;
+    margin: 10px 0 40px 0;
+}
+
+
+.second-vet-button{
+    color: #fff;
+    background-color:  #FFC500;
+    padding: 20px 25px;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+.pet-price{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.price{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.pet-price .price .pre-price{
+    text-decoration: line-through;
+    margin-right: 20px;
+}
+
+.pet-price .price h1{
+    color: #fff;
+    font-size: 34px;
+}
+
+.bye-button{
+    padding: 15px 40px;
+    border: none;
+    border-radius: 27px;
+    font-size: 22px;
+    font-weight: 700;
+    background: #191717;
+    color: white;
+    margin-top: 30px;
+}
+
+footer{
+    background: #191717;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+    align-items: center;
+    color: #fff;
+}
+
+.footer-left{
+    width: 76%;
+}
+
+.footer-right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-right .fa-brands{
+    width: 100%;
+    color: #191717;
+    font-size: 24px;
+    padding: 10px;
+    background-color: #fff;
+    margin-left: 10px;
+    border-radius: 34px;
+}

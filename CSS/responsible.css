@@ -1,0 +1,338 @@
+@media only screen and (max-width: 991px){
+
+
+
+    /* top banner start */
+    .top-banner{
+        height: 100%;
+        margin: auto;
+    }
+    .banner-left h1{
+        font-size: 24px;
+        line-height: 1em;
+    }
+    .banner-left p{
+        font-size: 13px;
+    }
+
+    .top-button1{
+        padding: 10px 15px;
+    }
+    .top-button2{
+        padding: 10px 15px;
+    }
+
+
+    /* vet section */
+    .vet-left{
+        width: 45%;
+    }
+    .vet-left h1{
+        font-size: 28px;
+    }
+    .vet-left p{
+        font-size: 14px;
+    }
+    .vet-button{
+        padding: 10px 15px;
+    }
+
+
+    /* second veterinarian */
+
+     .second-vet-right h1{
+        font-size: 34px;
+     }
+     .second-vet-right p{
+        font-size: 16px;
+        line-height: 1.1em;
+        margin-bottom: 30px;
+     }
+
+     .second-vet-button{
+        padding: 10px 15px;
+        font-size: 14px;
+     }
+
+}
+
+@media only screen and (max-width: 768px){
+    .menu ul{
+        display: none;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        backdrop-filter: blur(60px);
+
+    }
+
+    #menu-bar{
+        display: block;
+    }
+
+
+
+
+    #check:checked~.bars-button #menu-bar{
+        display: none;
+    }
+
+    #check:checked~.bars-button #close-bar{
+        display: block;
+    }
+
+
+    .menu ul li a{
+        margin-left: 10px;
+    }
+    /* vet section */
+    .vet-left h1{
+        font-size: 24px;
+        line-height: 1em;
+    }
+
+    .vet-left p{
+        font-size:13px;
+        line-height: 1em;
+    }
+    .vet-left .vet-button{
+        padding: 10px 15px;
+        font-size: 11px;
+    }
+    .vet-right{
+        margin-left: 25px;
+    }
+    .vet-right img{
+        width: 90%;
+    }
+
+    .vet-right::before{
+        width: 22px;
+        height: 100px;
+        left: -22px;
+    }
+    .vet-right::after{
+        width: 110px;
+        height: 22px;
+        left: -22px;
+    }
+
+
+    /* banner section */
+
+    .banner-right{
+        display: flex;
+        justify-content: center;
+    }
+
+    /* treatment section  */
+
+    .container .title h1{
+        font-size: 28px;
+    }
+    .container .title p{
+        font-size: 13px;
+    }
+    .treatment-content{
+        width:47%;
+        margin: 10px 0 20px 0;
+    }
+
+        /* second veterinarian */
+
+
+        .second-vet-left::before{
+            width: 28px;
+            height: 100px;
+            left: -28px;
+        }
+
+        .second-vet-left::after{
+            width: 120px;
+            height: 28px;
+            bottom: -27px;
+            left: -28px;
+        }
+
+
+        .second-vet-right h1{
+            font-size: 24px;
+         }
+         .second-vet-right p{
+            font-size: 13px;
+            line-height: 1.1em;
+            margin-bottom: 30px;
+         }
+    
+         .second-vet-button{
+            padding: 9px 12px;
+            font-size: 11px;
+         }
+
+
+
+         /* footer section */
+
+         .footer-left{
+            width: 60%;
+         }
+         
+         .footer-left p{
+            font-size: 13px;
+         }
+         .footer-right{
+            width: 35%;
+         }
+}
+
+@media only screen and (max-width:575px){
+    .menu ul{
+        display: none;
+        width: 100%;
+        position: absolute;
+        top: 53px;
+        right: 0;
+        padding: 20px;
+        text-align: center;
+        backdrop-filter: blur(60px);
+    }
+
+    .menu ul li a{
+        margin-left: 10px;
+        font-size: 12px;
+    }
+    .top-banner{
+        display: block;
+        text-align: center;
+        margin:auto;
+    }
+    .banner-left{
+        width: 100%;
+    }
+    .banner-right{
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    .banner-right img{
+        width: 70%;
+    }
+
+    .top-button1{
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+    .top-button2{
+        padding: 6px 9px;
+        font-size: 12px;
+    }
+
+    /* vet section */
+
+    .vet{
+        display: block;
+    }
+    .vet .vet-left{
+        width: 100%;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .vet-left h1{
+        font-size: 18px;
+        text-align: center;
+    }
+    .vet-left p{
+        font-size: 12px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .vet-button{
+        display: inline-block;
+        padding: 6px 9px;
+        text-align: center;
+        font-size: 11px;
+    }
+    .vet-right{
+        width: 100%;
+        text-align: center;
+        margin-left: 60px;
+    }
+    .vet-right img{
+        width: 70%;
+    }
+
+
+    /* treatment section  */
+    .treatment-content{
+        width:100%;
+        margin: 10px 0 20px 0;
+    }
+
+    /* second veterinarian */
+
+        /* second veterinarian */
+        .second-vet{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .second-vet-left img{
+            width: 100%;
+        }
+        .second-vet-left::before{
+            width: 25px;
+            height: 80px;
+            left: -25px;
+        }
+
+        .second-vet-left::after{
+            width: 120px;
+            height: 25px;
+            bottom: -25px;
+            left: -25px;
+        }
+
+        .second-vet-right h1{
+            font-size: 18px;
+            margin-top: 35px;
+         }
+         .second-vet-right p{
+            font-size: 11px;
+            line-height: 1.1em;
+            margin-bottom: 30px;
+         }
+    
+         .second-vet-button{
+            padding: 6px 9px;
+            font-size: 11px;
+         }
+
+         /* footer section  */
+
+         .footer-content{
+            display: block;
+         }
+
+         .footer-left{
+            width: 100%;
+         }
+
+         .footer-left p{
+            text-align: center;
+         }
+
+         .footer-right{
+            display: flex;
+            margin: auto;
+            margin-top: 10px;
+         }
+
+         .footer-right .fa-brands{
+            text-align: center;
+         }
+
+}
